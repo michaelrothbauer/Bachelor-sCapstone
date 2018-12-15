@@ -1,0 +1,13 @@
+<% include ./partials/header %>
+
+<div class="container">
+    <h1 class="authHeader">Sign Up!</h1>
+
+    <form action="/register" method="POST">
+        <input type="text" class="form-control" name="username" placeholder="username">
+        <input type="password" class="form-control" name="password" placeholder="password">
+        <input type="submit" class="form-control" value="Register">
+    </form>
+</div>
+
+<% include ./partials/footer %>
